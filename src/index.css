@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #9eebeb;
+}
+
+button {
+    font-size: 20px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", HGMaruGothicMPRO, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.hoverHighlight {
+    opacity: 1
+}
+.hoverHighlight:hover {
+    opacity: 0.4
+}
